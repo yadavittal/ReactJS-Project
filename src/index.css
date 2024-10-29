@@ -1,0 +1,40 @@
+.container {
+  height: 250px;
+  width: 250px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42%;
+  border-radius: 100%;
+  background-color: black;
+}
+.container div button{
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border:none;
+  /* font-size: 700; */
+  font-weight: 700;
+  
+}
+.reset {
+  margin-left: 5px;
+}
+div h1{
+  color: white;
+}
+
+.header {
+  color: black;
+  /* text-align: center; */
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+  /* width: 250px; */
+}
