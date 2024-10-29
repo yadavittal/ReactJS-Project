@@ -2,31 +2,30 @@ import React, { Fragment, useState } from 'react'
 
 const Todo = () => {
 
-    let [input, setInput] = useState("")
-    let [task, setTask] = useState([])
+    let [input, setInput] = useState("");
+    let [task, setTask] = useState([]);
 
     let inputData = (e) => {
-        setInput(e.target.value)
+        //  console.log(e.target.value);
+        setInput(e.target.value);
     }
     let addTask = (e) => {
         e.preventDefault()
         if (input === "") {
-            alert("please enter some task")
+            alert("please enter some task");
         }
         else {
-            setTask([...task, input])
-            
+            setTask([...task, input]);
         }
-        setInput("")
-        
+        setInput("");
     }
-    
-    console.log(task);
-
+    // console.log(task);
     let handleDelete = (ind) => {
-        let updatedArray = task.filter((value, index) => ind !== index)
-        console.log(updatedArray);
-        setTask(updatedArray)
+        let updatedArray = task.filter((value, index) => ind !== index);
+        // console.log(task, ' task');
+        // console.log(updatedArray, ' updatedArray');
+        setTask(updatedArray);
+
     }
     return (
         <>

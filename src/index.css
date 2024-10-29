@@ -38,3 +38,49 @@ div h1{
   /* border: 2px solid green; */
   /* width: 250px; */
 }
+.countContainer {
+  margin-left: 45%;
+}
+.countContainer .countOne button{
+  color: white;
+  background-color: orange;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 15px;
+}
+.countOne span {
+  color: orange;
+}
+.countContainer .countTwo button{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 15px;
+}
+.countThree span {
+  color: green;
+}
+.countContainer .countThree button{
+  color: white;
+  background-color: green;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 15px;
+}
+.countTimer .header {
+  color: black;
+}
+.countTimer {
+  margin-left: 40%;
+}
+.countTimer p {
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+  padding-left: 150px;
+  /* font-weight: bolder; */
+}

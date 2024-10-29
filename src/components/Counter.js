@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 
+
 function Counter() {
     const [number,setNumber]=useState(0)
   return (
-
     <div className='container'>
-           {/* <input type='number' placeholder='enter number' value={number}/> */}
-           {/* <h2>Counter</h2> */}
            <div >
                  <button onClick={()=>{
                     setNumber(number+1)
@@ -20,8 +18,8 @@ function Counter() {
 
                  <button className='reset' onClick={()=>{
                     setNumber(number*0)
-                 }}>
-                 Reset
+                 }}>Reset
+                 
                  </button>
            </div>
     </div> 
