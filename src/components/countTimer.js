@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 
 function CountTimer() {
-    
+
     const [timer, setTimer] = useState(59);
     useEffect(() => {
-        let t = setInterval(() => {
-            setTimer(upTimer => upTimer > 0 ? upTimer - 1 : 60);
+        let timer = setInterval(() => {
+        setTimer(time => time > 0 ? time - 1 : 59);
         }, 1000)
-       
-    return () => clearInterval(t);
+        //  console.log(t);
+    return () => clearInterval(timer); // code cleanup
     }, [])
-    
+
     return (
         <>
             <div className='countTimer'>
